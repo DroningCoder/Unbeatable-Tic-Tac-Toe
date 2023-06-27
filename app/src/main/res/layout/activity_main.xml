@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:paddingHorizontal="50dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@color/headingBackground"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:fontFamily="cursive"
+        android:rotation="-17"
+        android:text="Tic"
+        android:textColor="@color/heading"
+        android:textSize="56sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="128dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/saffron"
+        android:fontFamily="casual"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:rotationX="-21"
+        android:rotationY="-8"
+        android:text="Tac"
+        android:textColor="@color/heading"
+        android:textSize="100sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/red"
+        android:fontFamily="cursive"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:rotation="13"
+        android:rotationX="-38"
+        android:rotationY="-4"
+        android:text="Toe"
+        android:textColor="@color/heading"
+        android:textSize="70sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:rotation="13"
+        android:rotationX="-38"
+        android:rotationY="-4"
+        android:textColor="@color/heading"
+        android:textSize="70sp" />
+
+    <Button
+        android:id="@+id/ai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:fontFamily="casual"
+        android:text="AI Mode" />
+
+    <Button
+        android:id="@+id/multiplayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:fontFamily="casual"
+        android:text="Multiplayer" />
+
+    <Button
+        android:id="@+id/credits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:fontFamily="casual"
+        android:text="Credits" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:fontFamily="casual"
+        android:text="Exit" />
+</LinearLayout>
