@@ -17,5 +17,3 @@ Tic Tac Toe is a game played by two players designated by - X and O. The objecti
 * Every board state has a value associated with it. In a given state if the maximizer has upper hand then, the score of the board will tend to be some positive value. If the minimizer has the upper hand in that board state then it will tend to be some negative value. The values of the board are calculated by some heuristics which are unique for every type of game.
 
 [Minimax Algorithm](https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-1-introduction/)
-## Note
-Screenshots folder contains screenshots of the app while it is being used.
