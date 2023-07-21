@@ -18,4 +18,4 @@ Tic Tac Toe is a game played by two players designated by - X and O. The objecti
 
 [Minimax Algorithm](https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-1-introduction/)
 ## Note
-All files which have a number as prefix in them are screenshots of the app in working.
+All files names starting with a number are screenshots of the app in working.
